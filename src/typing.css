@@ -1,0 +1,42 @@
+/* Add these to your CSS file */
+@keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .animate-blink {
+    animation: blink 1s step-end infinite;
+  }
+  
+  /* If you need these animations as well */
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-up {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-fade-in {
+    animation: fade-in 1s ease forwards;
+  }
+  
+  .animate-slide-up {
+    animation: slide-up 0.8s ease forwards;
+  }

@@ -14,34 +14,27 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Cloud Resource Manager",
-    description: "A Python-based tool for efficiently managing and monitoring cloud resources across AWS and GCP with automated scaling and cost optimization features.",
+    title: "Restaurant Rating Finder",
+    description: "This Python project fetches restaurant data within a specified city and filters out restaurants with ratings below given rate using the Google Places API. The data is saved in both CSV and JSON formats for easy access and analysis.",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1000",
-    tags: ["Python", "Flask", "AWS", "Terraform", "Redis"],
-    githubLink: "#",
+    tags: ["Python", "Flask", "AWS", "web scraping", "API", "Google Places API", "CSV", "JSON"],
+    githubLink: "https://github.com/BrahimChatri/restaurants_finder",
     demoLink: "#"
   },
   {
-    title: "Data Processing Pipeline",
-    description: "High-performance ETL pipeline handling large-scale data processing using Python, Kafka, and PostgreSQL with real-time analytics capabilities.",
+    title: "Ad-Free Video Tool",
+    description: "This is a simple web application built with Flask, allowing users to input YouTube or Instagram URLs to watch videos without ads and download them directly to their devices. The app uses yt-dlp to download the videos and provides an ad-free viewing experience.",
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=1000",
-    tags: ["Python", "Kafka", "PostgreSQL", "Docker", "Celery"],
-    githubLink: "#",
-    demoLink: "#"
+    tags: ["Python", "Flask", "yt-dlp", "web scraping", "API"],
+    githubLink: "https://github.com/BrahimChatri/ad-free-video-tool",
+    demoLink: "https://watch-free-navy.vercel.app/"
   },
   {
-    title: "API Gateway Service",
-    description: "Microservice-based API gateway handling authentication, rate limiting, and request routing for a distributed backend system.",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=1000",
-    tags: ["Python", "FastAPI", "MongoDB", "Docker", "Kubernetes"],
-    githubLink: "#"
-  },
-  {
-    title: "Automation Framework",
-    description: "Extensible automation framework for infrastructure management with advanced scheduling and reporting capabilities.",
+    title: "VenomShield",
+    description: "VenomShield, your NFT guardian on Discord! This bot helps you verify holders on the Venom Network and manage roles based on users' NFT holdings.",
     image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=1000",
-    tags: ["Python", "Celery", "RabbitMQ", "Ansible", "Flask"],
-    githubLink: "#",
+    tags: ["Python", "Discord", "Blockchain", "API", "NFT", "Venom Network"],
+    githubLink: "https://github.com/BrahimChatri/venom-holders-verify.git",
     demoLink: "#"
   }
 ];

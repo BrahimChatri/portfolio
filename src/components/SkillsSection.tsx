@@ -3,11 +3,11 @@ export function SkillsSection() {
   const skillCategories = [
     {
       title: "Languages",
-      skills: ["Python", "JavaScript", "TypeScript", "SQL", "Bash"]
+      skills: ["Python", "Rust", "Bash"]
     },
     {
       title: "Back-end Frameworks",
-      skills: ["Flask", "Django", "FastAPI", "Express.js", "Node.js"]
+      skills: ["Flask", "Django", "FastAPI"]
     },
     {
       title: "Databases",
@@ -15,7 +15,7 @@ export function SkillsSection() {
     },
     {
       title: "DevOps & Cloud",
-      skills: ["Docker", "Kubernetes", "AWS", "GCP", "CI/CD", "Terraform"]
+      skills: ["Docker", "Kubernetes", "AWS", "CI/CD", "Terraform"]
     },
     {
       title: "Tools & Others",

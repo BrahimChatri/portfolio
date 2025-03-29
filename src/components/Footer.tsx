@@ -42,7 +42,7 @@ export function Footer() {
           
           <div className="flex gap-4">
             <a 
-              href="https://github.com/" 
+              href="https://github.com/BrahimChatri" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-secondary/50 p-2 rounded-full hover:bg-secondary transition-colors"
@@ -51,7 +51,7 @@ export function Footer() {
               <Github className="h-5 w-5" />
             </a>
             <a 
-              href="https://linkedin.com/" 
+              href="https://linkedin.com/in/brahim-chatri" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-secondary/50 p-2 rounded-full hover:bg-secondary transition-colors"
@@ -60,7 +60,7 @@ export function Footer() {
               <Linkedin className="h-5 w-5" />
             </a>
             <a 
-              href="mailto:contact@brahim.dev"
+              href="mailto:brahim.chatri.dev@gmail.com"
               className="bg-secondary/50 p-2 rounded-full hover:bg-secondary transition-colors"
               aria-label="Email Me"
             >

@@ -55,7 +55,7 @@ export function ContactSection() {
                 <div>
                   <h3 className="text-lg font-medium">Email</h3>
                   <a href="mailto:contact@brahim.dev" className="text-muted-foreground hover:text-accent1 transition-colors">
-                    contact@brahim.dev
+                    brahim.chatri.dev@gmail.com
                   </a>
                 </div>
               </div>
@@ -68,7 +68,7 @@ export function ContactSection() {
                   <h3 className="text-lg font-medium">Social Profiles</h3>
                   <div className="flex gap-3 mt-2">
                     <a 
-                      href="https://github.com/" 
+                      href="https://github.com/BrahimChatri" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="bg-card hover:bg-secondary p-2 rounded-full transition-colors"
@@ -77,7 +77,7 @@ export function ContactSection() {
                       <Github className="h-5 w-5" />
                     </a>
                     <a 
-                      href="https://linkedin.com/" 
+                      href="https://linkedin.com/in/brahim-chatri" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="bg-card hover:bg-secondary p-2 rounded-full transition-colors"
