@@ -22,6 +22,14 @@ const projects: Project[] = [
     demoLink: "#"
   },
   {
+    title: "Flask Task Manager",
+    description: "Flask Task Manager is a sleek, modern web application built using Flask and TailwindCSS, allowing users to easily register, log in, and manage their daily tasks. With a clean, intuitive interface, this app helps users stay organized and on top of their to-do lists. Featuring seamless task management, real-time updates, and an elegant user experience, it’s perfect for anyone looking to boost their productivity.",
+    image: "home.png",
+    tags: ["Python", "Flask", "HTML", "AWS", "API", "TailwindCSS", "JSON"],
+    githubLink: "https://github.com/BrahimChatri/flask-task-manager",
+    demoLink: "#"
+  },  
+  {
     title: "Ad-Free Video Tool",
     description: "This is a simple web application built with Flask, allowing users to input YouTube or Instagram URLs to watch videos without ads and download them directly to their devices. The app uses yt-dlp to download the videos and provides an ad-free viewing experience.",
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=1000",

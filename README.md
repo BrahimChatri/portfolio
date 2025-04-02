@@ -1,6 +1,5 @@
 # Brahim Chatri - Developer Portfolio
 
-![Portfolio Screenshot](/path/to/screenshot.png)
 
 ## 🚀 Overview
 
@@ -54,4 +53,4 @@ You can deploy this project via:
 
 ---
 
-Designed & Developed by Brahim Chatri | Originally created with [Lovable](https://lovable.dev/)
+ Originally created with [Lovable](https://lovable.dev/)
