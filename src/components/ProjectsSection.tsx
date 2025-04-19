@@ -27,7 +27,7 @@ const projects: Project[] = [
     image: "home.png",
     tags: ["Python", "Flask", "HTML", "AWS", "API", "TailwindCSS", "JSON"],
     githubLink: "https://github.com/BrahimChatri/flask-task-manager",
-    demoLink: "#"
+    demoLink: "http://chestnutlobster.onpella.app/"
   },  
   {
     title: "Ad-Free Video Tool",
